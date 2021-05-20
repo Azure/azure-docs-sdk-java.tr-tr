@@ -61,6 +61,15 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/Azure/azure-docs-sdk-java",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "main": "main"
+      }
+    },
+    {
       "path_to_root": "_mavenref",
       "url": "https://github.com/Microsoft/azure-maven-plugins/",
       "branch": "master",
@@ -90,15 +99,6 @@
       "url": "https://github.com/Azure/azure-storage-java",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/Azure/azure-docs-sdk-java",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "main": "main"
-      }
     }
   ],
   "branch_target_mapping": {},
